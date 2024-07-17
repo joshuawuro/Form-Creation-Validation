@@ -57,7 +57,7 @@
             </ul>
         </li>
         <li>
-            asynchronous JavaScript and API's:
+            Asynchronous JavaScript and API's:
             <ul>
                 <li>
                 Use JavaScript to fetch data asynchronously form a public API
