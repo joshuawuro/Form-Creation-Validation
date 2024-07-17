@@ -36,42 +36,50 @@
     <ol>
         <li>
             Implement Form validation
-            <li>
-                Understand and implement basic form validation using JavaScript
-            </li>
-            <li>
-                Ensure user inputs meet specific criteria before form submission
-            </li>
+            <ul>
+                <li>
+                    Understand and implement basic form validation using JavaScript
+                </li>
+                <li>
+                    Ensure user inputs meet specific criteria before form submission
+                </li>
+            </ul>
         </li>
         <li>
             Work with the DOM!
-            <li>
+            <ul>
+                <li>
                 Use DOM manipulationto dynamically interact with HTMLelements
-            </li>
-            <li>
-                Understand and utilize event listeners for form submission and input validation
-            </li>
+                </li>
+                <li>
+                    Understand and utilize event listeners for form submission and input validation
+                </li>
+            </ul>
         </li>
         <li>
             asynchronous JavaScript and API's:
-            <li>
+            <ul>
+                <li>
                 Use JavaScript to fetch data asynchronously form a public API
-            </li>
-            <li>
-                display fetched data dynamically on a webpage
-            </li>
-            <li>
-                Handle potential errors during data fetching
-            </li>
+                </li>
+                <li>
+                    display fetched data dynamically on a webpage
+                </li>
+                <li>
+                    Handle potential errors during data fetching
+                </li>
+            </ul>
         </li>
         <li>
             Enhance User Experience:
-            <li>
+            <ul>
+                <li>
                 Provide real-time feedback to users for form validation
-            </li>
-            <li>
-                Ensure data persists across browser sessions using local storage
-            </li>
+                </li>
+                <li>
+                    Ensure data persists across browser sessions using local storage
+                </li>
+            </ul>
         </li>
     </ol>
 </p>
