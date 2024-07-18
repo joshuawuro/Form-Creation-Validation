@@ -134,6 +134,8 @@
                 Wrap your entire script in a <strong>DOMContentLoaded</strong> event listener. This ensures your JavaScript runs after the entire HTML document has been loaded
             </li>
         </ul>
+    </li>
+    <li>
         <h3>
             Form Selection
         </h3>
@@ -142,6 +144,8 @@
                 Use <strong>document.getElementById</strong> to select the form with <strong>id='registration-form'</strong>. Store this reference in a constant named <strong>form</strong>
             </li>
         </ul>
+    </li>
+    <li>
         <h3>
             Feedback
         </h3>
@@ -255,5 +259,143 @@
     </li>
     <li>
         File: <strong>index.html, style.css, script.js</strong>
+    </li>
+</ul>
+
+
+<h1>
+    1. Fetching Data from an API and Displaying it
+</h1>
+<p>
+    Implement JavaScript functionality to asynchronously fetch user data from a public API (https://jsonplaceholder.typicode.com/users) and display the names of the users in a list on the webpage.
+</p>
+<h1>
+    Final Output
+</h1>
+<p>
+    After implementing the JavaScript code, you should end up with something like this:
+</p>
+<img src="/assets/Screenshot 2024-07-18 035813.png" alt="list of users">
+<h2>
+    HTML Code
+</h2>
+<img src="assets/Screenshot 2024-07-18 035837.png" alt="html code">
+<h2>
+    CSS Code
+</h2>
+<img src="assets/Screenshot 2024-07-18 035852.png" alt="css code">
+<h1>
+    Detailed Instructions for JavaScript Task
+</h1>
+<h2>
+    Overview
+</h2>
+<p>
+    You will write JavaScript code to asynchronously fetch user data from a public API and display each user's name on a web page. Your code will also handle potential errors during the fetch operation.
+</p>
+<h2>
+    JavaScript Code Writing Steps
+</h2>
+<ol>
+    <li>
+        <h3>
+            Initial the Async Function
+        </h3>
+        <ul>
+            <li>
+                Begin by defining an asynchronous function named <strong>fetchUserData</strong>. This function will contain all your code for fetching and displaying the data.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Define the APU URL:
+        </h3>
+        <ul>
+            Inside <strong>fetchUserData</strong>, declare a constant <strong>apiUrl</strong> and assign it the string value <strong>'https://jsonplaceholder.typicode.com/users'</strong>. This URL points to the API endpoint from which you’ll fetch user data.
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Select the Data Container Element
+        </h3>
+        <ul>
+            <li>
+                Select the HTML element where the API data will be displayed by using <strong>document.getElementById</strong>. Look for an element with the ID <strong>'api-data'</strong> and store this reference in a constant named <strong>dataContainer</strong>.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Fetch Data Using <strong>try-catch</strong>:
+        </h3>
+        <ul>
+            <li>
+                Employ a <strong>try-catch</strong> block to handle the fetching process and potential errors
+            </li>
+            <li>
+                n the <strong>try</strong> block, use the <strong>await</strong> keyword with the <strong>fetch</strong> function to asynchronously get data from <strong>apiUrl</strong>. Store the response in a constant named <strong>response</strong>
+            </li>
+            <li>
+                Then, convert the response to JSON using <strong>await response.json()</strong> and store this data in a constant named <strong>users</strong>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Clear the Loading Message:
+        </h3>
+        <ul>
+            <li>
+                Before appending new content to <strong>dataContainer</strong>, clear its existing content (the “Loading user data…” message) by setting <strong>dataContainer.innerHTML = ''</strong>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Create and Append User List:
+        </h3>
+        <ul>
+            <li>
+                Create a <strong><ul></strong> element and store it in a constant named <strong>userList</strong>
+            </li>
+            <li>
+                Loop through the <strong>users</strong> array with <strong>forEach</strong>, and for each user, do the following:
+                <ul>
+                    <li>
+                        Create a <strong><ul></strong> element
+                    </li>
+                    <li>
+                        Set the text content of the <li> to the user's name
+                    </li>
+                    <li>
+                        Append the <li> to userList
+                    </li>
+                </ul>
+            </li>
+            <li>
+                After the loop, append <strong>userList</strong> to <strong>dataContainer</strong>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>
+            Invoke <strong>fetchUserData</strong> on DOMContentLoaded
+        </h3>
+        <ul>
+            <li>
+                Outside <strong>fetchUserData</strong>, add an event listener to <strong>document</strong> for the <strong>DOMContentLoaded</strong> event. Set the callback function to invoke <strong>fetchUserData</strong>. This ensures your data fetching logic runs once the HTML document has fully loaded
+            </li>
+        </ul>
+    </li>
+</ol>
+Repo:
+</h3>
+<ul>
+    <li>
+        GitHub repository: <strong>Form-Creation-Validation</strong>
+    </li>
+    <li>
+        File: <strong>fetch-data.html, fetch-data.css, fetch-data.js</strong>
     </li>
 </ul>
