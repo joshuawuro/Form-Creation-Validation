@@ -9,7 +9,9 @@
 </p>
 
 <p>
-    You will learn how to:
+    <h3>
+        You will learn how to:
+    </h3>
     <ul>
         <li>
             Validate form inputs using JavaScript
@@ -28,7 +30,9 @@
 </p>
 
 <h1>
-    Learning Objectives
+    <h3>
+        Learning Objectives
+    </h3>    
 </h1>
 
 <p>
@@ -46,7 +50,9 @@
             </ul>
         </li>
         <li>
-            Work with the DOM!
+            <h3>
+                Work with the DOM!
+            </h3> 
             <ul>
                 <li>
                 Use DOM manipulationto dynamically interact with HTMLelements
@@ -57,7 +63,9 @@
             </ul>
         </li>
         <li>
-            Asynchronous JavaScript and API's:
+            <h3>
+                Asynchronous JavaScript and API's:
+            </h3> 
             <ul>
                 <li>
                 Use JavaScript to fetch data asynchronously form a public API
@@ -71,7 +79,9 @@
             </ul>
         </li>
         <li>
-            Enhance User Experience:
+            <h3>
+                Enhance User Experience:
+            </h3>
             <ul>
                 <li>
                 Provide real-time feedback to users for form validation
