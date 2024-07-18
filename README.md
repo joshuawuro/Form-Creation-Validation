@@ -39,7 +39,9 @@
     By the end of this project, students should be able to:
     <ol>
         <li>
-            Implement Form validation
+            <h3>
+                Implement Form validation
+            </h3>
             <ul>
                 <li>
                     Understand and implement basic form validation using JavaScript
