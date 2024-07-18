@@ -241,7 +241,7 @@
                 If <strong>isValid</strong> remains <strong>true</strong>, set the <strong>textContent</strong> of <strong>feedbackDiv</strong> to <strong>"Registration successful!"</strong> and its <strong>style.color</strong> to <strong>#28a745</strong>
             </li>
             <li>
-                If <strong>isValid</strong> is <strong>false</strong>, join <strong>messages</strong> with <strong><br></strong> to form a single string, and assign this to the innerHTML of <strong>feedbackDIV</strong>. Set <strong>feedbackDIV.style.color</strong> to <strong>"#dc3545"</strong>
+                If <strong>isValid</strong> is <strong>false</strong>, join <strong>messages</strong> with <strong>br</strong> to form a single string, and assign this to the innerHTML of <strong>feedbackDIV</strong>. Set <strong>feedbackDIV.style.color</strong> to <strong>"#dc3545"</strong>
             </li>
         </ul>
     </li>
