@@ -357,19 +357,19 @@
         </h3>
         <ul>
             <li>
-                Create a <strong><ul></strong> element and store it in a constant named <strong>userList</strong>
+                Create a <strong>ul</strong> element and store it in a constant named <strong>userList</strong>
             </li>
             <li>
                 Loop through the <strong>users</strong> array with <strong>forEach</strong>, and for each user, do the following:
                 <ul>
                     <li>
-                        Create a <strong><ul></strong> element
+                        Create a <strong>ul</strong> element
                     </li>
                     <li>
-                        Set the text content of the <li> to the user's name
+                        Set the text content of the li to the user's name
                     </li>
                     <li>
-                        Append the <li> to userList
+                        Append the li to userList
                     </li>
                 </ul>
             </li>
